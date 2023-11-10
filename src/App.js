@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Navbar';
+import About from './About';
+import Sliders from './Sliders';
+import Contact from './Contact';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <About />
+      <Sliders />
+      <Contact />
+      <section id='footer' className='bg-black text-gray-700'>
+        <p className='font-semibold font-playPen'>Copyright &copy; 2024 Ayodele Olayinka</p>
+      </section>
     </div>
   );
 }
