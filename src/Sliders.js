@@ -34,25 +34,25 @@ const Sliders = () => {
                 <SwiperSlide>
                     <div className='flex flex-col items-center justify-center'>
                         <img src={icon} alt="referral" width="15%" className='pb-4' />
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit beatae pariatur dignissimos quod, ab delectus odio. Libero amet magnam, nisi nulla ea iure. Vitae laudantium praesentium labore culpa aperiam ducimus.</p>
+                        <p className='text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit beatae pariatur dignissimos quod, ab delectus odio. Libero amet magnam, nisi nulla ea iure. Vitae laudantium praesentium labore culpa aperiam ducimus.</p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='flex flex-col items-center justify-center'>
                         <img src={icon} alt="referral" width="15%" className='pb-4' />
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit beatae pariatur dignissimos quod, ab delectus odio. Libero amet magnam, nisi nulla ea iure. Vitae laudantium praesentium labore culpa aperiam ducimus.</p>
+                        <p className='text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit beatae pariatur dignissimos quod, ab delectus odio. Libero amet magnam, nisi nulla ea iure. Vitae laudantium praesentium labore culpa aperiam ducimus.</p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='flex flex-col items-center justify-center'>
                         <img src={icon} alt="referral" width="15%" className='pb-4' />
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit beatae pariatur dignissimos quod, ab delectus odio. Libero amet magnam, nisi nulla ea iure. Vitae laudantium praesentium labore culpa aperiam ducimus.</p>
+                        <p className='text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit beatae pariatur dignissimos quod, ab delectus odio. Libero amet magnam, nisi nulla ea iure. Vitae laudantium praesentium labore culpa aperiam ducimus.</p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='flex flex-col items-center justify-center'>
                         <img src={icon} alt="referral" width="15%" className='pb-4' />
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit beatae pariatur dignissimos quod, ab delectus odio. Libero amet magnam, nisi nulla ea iure. Vitae laudantium praesentium labore culpa aperiam ducimus.</p>
+                        <p className='text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit beatae pariatur dignissimos quod, ab delectus odio. Libero amet magnam, nisi nulla ea iure. Vitae laudantium praesentium labore culpa aperiam ducimus.</p>
                     </div>
                 </SwiperSlide>
         </Swiper>

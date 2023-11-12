@@ -11,9 +11,9 @@ function App() {
       <About />
       <Sliders />
       <Contact />
-      <section id='footer' className='bg-black text-gray-700'>
+      {/* <section id='footer' className='bg-black text-gray-700'>
         <p className='font-semibold font-playPen'>Copyright &copy; 2024 Ayodele Olayinka</p>
-      </section>
+      </section> */}
     </div>
   );
 }

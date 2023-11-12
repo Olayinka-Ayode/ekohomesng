@@ -6,9 +6,9 @@ const Contact = () => {
                 <div className="form md:w-1/2">
                     <form action="https://formsubmit.co/ekohomes234@gmail.com" method="POST" className='flex flex-col items-start w-full p-4 md-p:0'>
                         <label htmlFor="name" className='font-semibold font-playPen pb-2'>Name: </label>
-                        <input type="text" id="name" name='name' className='focus:outline-none px-3 py-2 rounded-lg mb-6 w-72'/>
+                        <input type="text" id="name" name='name' className='focus:outline-none px-3 py-2 rounded-lg mb-6 md:w-3/4 w-full'/>
                         <label htmlFor="email" className='font-semibold font-playPen pb-2'>Email: </label>
-                        <input type="email" name="email" id="email" className='focus:outline-none px-3 py-2 rounded-lg mb-6 w-72'/>
+                        <input type="email" name="email" id="email" className='focus:outline-none px-3 py-2 rounded-lg mb-6 md:w-3/4 w-full'/>
                         <label htmlFor="message" className='font-semibold font-playPen pb-2'>Message: </label>
                         <textarea name="message" id="message" className=' focus:outline-none md:w-3/4 w-full h-32 px-3 py-2 rounded-lg resize-none mb-12'></textarea>
                         <button className="bg-white font-semibold py-4 px-8 rounded-lg hover:font-bold text-left">Send!</button>
