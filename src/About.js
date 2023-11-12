@@ -6,7 +6,7 @@ const About = () => {
     let anuWidth = 500;
     anuWidth = anuWidth + "px"
     return (
-        <section id='about' className='flex flex-col items-start md:ml-44 ml-12 mt-32 md:mt-24'>
+        <section id='about' className='flex flex-col items-start md:ml-44 ml-6 mt-32 md:mt-24'>
             <div className="about-container flex flex-col md:flex-row items-center justify-center md:justify-around w-full">
                 <div className="text-container">
                     <div className="title text-left">
