@@ -16,7 +16,7 @@ const Contact = () => {
                 </div>
                 <div className="contact font-playPen font-semibold text-left p-4 md:p-0">
                     <p>Phone: +(234) 81 - 533 - 612 - 64</p>
-                    <p>Email: <a href="mailto:" target='_blank' rel="noreferrer">janetibk11@gmail.com</a></p>
+                    <p>Email: <a href="mailto:" target='_blank' rel="noreferrer">ekohomes234@gmail.com</a></p>
                     <p><a href="https://instagram.com/ekohomesng?igshid=YWo4eDVrejRWZzY=" target='_blank' rel="noreferrer">IG: @EKOHOMESNG</a></p>
                 </div>
             </div>
