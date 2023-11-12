@@ -22,7 +22,7 @@ const Navbar = () => {
     }
 
     return (
-        <nav className='flex justify-around items-center relative'>
+        <nav className='flex md:justify-around justify-between pr-12 items-center relative'>
             <div className="logo-container"><img src={logo} alt="logo" width={logoWidth} /></div>
             <FontAwesomeIcon icon={icons} className="cursor-pointer md:hidden" onClick={(e) => {checkIconClick(e)}}/>
             <div className="list-container w-1/3 items-center absolute md:static top-16 left-12 text-left md:flex hidden md:top-0 md:left-0" id="listNav">
